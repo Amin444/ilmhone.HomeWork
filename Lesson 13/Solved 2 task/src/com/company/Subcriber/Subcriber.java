@@ -65,9 +65,5 @@ public class Subcriber {
 
  public void setId(int id){ this.id=id;}
 
- public void getInfo(){
-     System.out.println("Id: "+getid()+"Name:"+getName()+"LastName:"+getLastName()+"Address:"+getAddress()
-             +"CityConversLimit:"+getCityConversationsTime()+"Long-distance"+getInternationalConversationsTime());
 
- }
 }
