@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="1sp"
+    android:scrollbarSize="0sp"
+    tools:context=".MainActivity">
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:id="@+id/layout"
+    android:background="@color/black"
+    >
+
+
+    <ImageView
+        android:id="@+id/disnep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/disnep"
+        android:visibility="visible"
+        android:layout_marginTop="20dp">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/SomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/disnep"
+
+        android:text="Дисней стал создателем первых в истории кинематографа
+     звукового и музыкального мультфильмов[уточнить].
+    Как режиссёр снял 111 фильмов и был продюсером ещё 576 кинофильмов.
+     Выдающиеся заслуги Диснея в области киноискусства отмечены 26 статуэтками
+     «Оскар» (абсолютный рекорд)[4] и премией имени Ирвинга Тальберга
+    (которая обладает статусом «Оскара», но не представляет собой привычную статуэтку),
+     а также другими многочисленными наградами и премиями."
+        android:textColor="@color/teal_200"
+        android:textSize="20sp"
+       ></TextView>
+
+    <Button
+        android:id="@+id/b1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/SomeText"
+    android:background="@color/teal_200"
+    android:text="Pictures"
+    android:textColor="@color/white"
+    android:layout_centerInParent="true"
+    ></Button>
+
+</RelativeLayout>
+</ScrollView>
